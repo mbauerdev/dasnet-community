@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "events", "events", "{CDDCADCD-9350-8E22-D67F-1D4576D8025F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2024-09-10 Community Event", "2024-09-10 Community Event", "{AAFBC204-5349-A46C-FC86-22F268BC00F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsNewInDotnet9", "events\2024-09-10 Community Event\code\WhatsNewInDotnet9.csproj", "{F7ADED46-324C-1BC0-00F6-57726C884040}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7ADED46-324C-1BC0-00F6-57726C884040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ADED46-324C-1BC0-00F6-57726C884040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ADED46-324C-1BC0-00F6-57726C884040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ADED46-324C-1BC0-00F6-57726C884040}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAFBC204-5349-A46C-FC86-22F268BC00F7} = {CDDCADCD-9350-8E22-D67F-1D4576D8025F}
+		{F7ADED46-324C-1BC0-00F6-57726C884040} = {AAFBC204-5349-A46C-FC86-22F268BC00F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98C8AA82-E81A-4995-8931-F58C54CBC6D0}
+	EndGlobalSection
+EndGlobal
